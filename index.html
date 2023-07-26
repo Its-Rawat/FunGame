@@ -3,23 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find The Hidden Boxes </title>
+    <title>Practice: Play with event listeners</title>
     <style>
-        body {
-  margin: 0;
+
+body{
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
-
 .grid {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(7, 6rem);
   list-style-type: none;
   border-radius: 0.5rem;
+  
 }
 
 .cell {
@@ -30,6 +28,8 @@
   /* border: 2px solid black; */
   text-align: center;
 }
+
+
 @media screen and (max-width:480px){
     .grid{
       grid-template-columns: repeat(4, 6rem);
@@ -42,6 +42,7 @@
       
     }
   }
+
     </style>
     <script src="./script.js" defer></script>
   </head>
